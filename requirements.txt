@@ -1,0 +1,8 @@
+# Runtime dependencies. MediaPipe Tasks uses the bundled local model; all
+# frames and landmarks stay on this computer.
+astra-plugin-sdk>=0.6,<0.7
+mediapipe==0.10.30
+protobuf>=6.31.1,<8
+opencv-python-headless==4.11.0.86
+PyAutoGUI==0.9.54
+pytest>=7.0

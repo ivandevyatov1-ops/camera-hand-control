@@ -1,0 +1,20 @@
+[plugin]
+id = "camera-hand-control"
+name = "Управление рукой через камеру"
+version = "0.1.16"
+description = "Управляйте курсором и окнами жестами руки через камеру; видео обрабатывается локально, без отправки кадров в сеть."
+author = "Иван Девятов"
+license = "MIT"
+
+[entry]
+command = "python"
+args = ["-m", "src.plugin"]
+runtimes = ["python"]
+
+[capabilities]
+tools = true
+ui_contributions = true
+
+# Camera access and OS mouse control happen locally in the explicitly started
+# controller process; no Astra host RPC permissions are needed.
+[permissions]

@@ -1,0 +1,15 @@
+# Build artifacts
+*.astraplugin
+
+# Local credentials / owner-only publishing data
+.env
+.env.*
+.well-known-astra-owner-template
+.github/registry-binding
+
+__pycache__/
+*.pyc
+.venv/
+requirements.lock
+.pytest_cache/
+

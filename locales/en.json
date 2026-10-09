@@ -1,0 +1,4 @@
+{
+  "listing.name": "Управление рукой через камеру",
+  "listing.description": "Control your mouse with hand gestures through your webcam, with optional gaze control. Video is processed only on your device; no camera frames are uploaded."
+}

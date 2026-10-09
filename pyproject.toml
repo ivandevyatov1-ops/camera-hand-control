@@ -1,0 +1,18 @@
+[project]
+name = "camera_hand_control"
+version = "0.1.16"
+description = "Управляйте курсором и окнами жестами руки через камеру; видео обрабатывается локально, без отправки кадров в сеть."
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "astra-plugin-sdk>=0.6,<0.7",
+    "mediapipe==0.10.30",
+    "protobuf>=6.31.1,<8",
+    "opencv-python-headless==4.11.0.86",
+    "PyAutoGUI==0.9.54",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

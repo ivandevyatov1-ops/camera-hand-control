@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Управление рукой через камеру">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="hand" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ddd6fe"/>
+    </linearGradient>
+  </defs>
+  <rect x="5" y="5" width="118" height="118" rx="32" fill="url(#bg)"/>
+  <circle cx="93" cy="35" r="18" fill="#fff" opacity=".16"/>
+  <circle cx="93" cy="35" r="9" fill="none" stroke="#fff" stroke-width="4"/>
+  <circle cx="93" cy="35" r="3" fill="#fff"/>
+  <path d="M37 65c0-4 3-7 7-7s7 3 7 7V42c0-4 3-7 7-7s7 3 7 7v20-27c0-4 3-7 7-7s7 3 7 7v29-19c0-4 3-7 7-7s7 3 7 7v33c0 20-12 34-31 34-14 0-23-7-29-20L25 75c-2-4 0-8 4-10 3-1 6 0 8 3z" fill="url(#hand)" stroke="#fff" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M27 92c5 13 15 21 29 24" fill="none" stroke="#c4b5fd" stroke-width="4" stroke-linecap="round"/>
+</svg>
